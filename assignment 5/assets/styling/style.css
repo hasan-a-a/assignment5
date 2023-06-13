@@ -1,0 +1,196 @@
+.navbar {
+    text-align: left;
+    background-color:rgb(9, 175, 175);
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    
+  
+    
+
+}
+.navbar p{
+    color: white;
+    border: none;
+    margin: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    /* border: 3px;
+    border-color: black; */
+    /* background-color: black; */
+
+}
+.navbar a{
+    text-decoration: none;
+   
+}
+.navbar :hover{
+    opacity: 0.8;
+}
+
+.List00, .List01, .List02{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+}
+.List00 p, .List01 p, .List02 p{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+.img00 {
+    width: 1px;
+    margin-right: 100px;
+}
+
+
+h1{
+   font-weight: 100;  
+   text-align: center;
+}
+
+.List01 img{
+    width: 400px;
+    
+}
+.List02 img{
+    width: 500px;
+
+}
+button{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;   
+}
+button:hover{
+    opacity: 0.5;
+    color: aquamarine;
+    
+}
+hr {
+    width: 100%;
+    margin-top: -5px;
+
+}
+.Info {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    /* padding: 10px; */
+    
+}
+.Message {
+    text-align: center;
+}
+.Message input{
+    width: 350px;
+    /* height: 50px; */
+    padding: 120px;
+}
+.Name input, .mail input {
+    width: 200px;
+    /* height: 35px; */
+    padding: 20px;
+}
+.Name, .mail {
+    padding: 40px;
+}
+.message button{
+    width: 100px;
+    /* margin-bottom: 100px;
+    margin-top: 10px; */
+}
+
+.copy{
+
+text-align: center;
+}
+.icon {
+    /* text-align: center; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.icon img{
+    height: 20px;
+    width: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.icon :hover{
+    opacity: 0.5;
+    color: aquamarine;
+}
+.Table {
+    margin: 100px;
+}
+table {
+    width: 100%;
+    margin-top: 100px;
+    
+}
+table, th, td {
+    /* border-right:  1px solid #be0000; */
+    /* border-collapse: collapse; */
+    border: 1px solid black;
+    
+}
+th {
+    /* border-right:  1px solid #be0000;    */
+    border-radius: 2px;
+}
+td {
+    /* text-align: center;
+    color: aqua;
+    border-right:  1px solid #0003be;  */
+    border-radius: 7px;
+}
+.green button {
+    margin-top: 12px;
+    background-color: #4CAF50;
+    text-align: center;
+    
+}
+.green button:hover{
+    border-right: 20px solid black;
+    border-bottom-color: darkkhaki;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+form {
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+.Infor {
+    display: flex;
+    justify-content: space-around;
+} 
+/* .message {
+    text-align: center;
+} */
+#message  {
+    width: 1000px;
+    height: 300px;
+    background-image: url("/assets/pic/img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    color: #f0f8ff;
+}
+#message:hover{
+    opacity: 0.5;
+
+}
+.message ::placeholder {
+    color: blue;
+}
+.trailler {
+    text-align: center;
+}
